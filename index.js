@@ -1,4 +1,4 @@
-// require('dotenv').config();
+require('dotenv').config();
 // npm i dotenv
 const server = require("./api/server.js");
 const port = process.env.PORT || 4000;
